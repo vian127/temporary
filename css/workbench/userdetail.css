@@ -1,0 +1,26 @@
+
+#page-wrapper {
+  min-width: 890px;
+  white-space: nowrap;
+
+}
+.content {
+  min-width: 820px;
+
+}
+
+.group1 label {
+    padding-right: 15px;
+}
+.group1 input {
+    width: 80%;
+}
+.group2 label {
+    padding-right: 10px;
+}
+.group2 input {
+    width: 80%;
+}
+.city select {
+    width: 60px;
+}
