@@ -269,17 +269,17 @@
               <i class="fa fa-sitemap"></i> 客户管理
               <span class="fa arrow"></span>
             </a>
-            <ul class="nav nav-second-level">
-              <li class='active'>
+            <ul class="nav nav-second-level nav-active">
+              <li>
                 <a href="#">客户管理
                   <span class="fa arrow"></span>
                 </a>
-                <ul class="nav nav-third-level in">
+                <ul class="nav nav-third-level">
                   <li>
-                    <a href="./client.html">客户管理</a>
+                    <a href="../customer/client.html">客户管理</a>
                   </li>
                   <li>
-                    <a href="./clientdetail.html">客户详情</a>
+                    <a href="../customer/clientdetail.html">客户详情</a>
                   </li>
                 </ul>
               </li>
@@ -289,10 +289,10 @@
                 </a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="./order.html">订单管理</a>
+                    <a href="../customer/order.html">订单管理</a>
                   </li>
                   <li>
-                    <a href="./orderdetail.html">订单详情</a>
+                    <a href="../customer/orderdetail.html">订单详情</a>
                   </li>
                 </ul>
               </li>
@@ -302,10 +302,10 @@
                 </a>
                 <ul class="nav nav-third-level">
                   <li>
-                    <a href="./user.html">用户管理</a>
+                    <a href="../customer/user.html">用户管理</a>
                   </li>
                   <li>
-                    <a href="./userdetail.html">用户详情</a>
+                    <a href="../customer/userdetail.html">用户详情</a>
                   </li>
                 </ul>
               </li>
@@ -511,11 +511,211 @@
       <!-- 内容 -->
       <div class="content" id='app'>
         <div class='information'>
-          <div class="row">
+          <div class="container-fluid">
+            <div class="row Basic-info">
+              <div class='col-xs-12 group1'>
+                <div class="col-xs-4">
+                  <label for="" class='account'>主账号</label>
+                  <input type="text">
+                </div>
+                <div class="col-xs-4">
+                  <label for="">客户id</label>
+                  <input type="text">
+                </div>
+                <div class="col-xs-4">
+                  <label for="">品牌名称</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class='col-xs-12 group2'>
+                <div class="col-xs-5">
+                  <label for="">公司名称</label>
+                  <input type="text">
+                </div>
+                <div class="col-xs-3">
+                  <label for="">邮箱</label>
+                  <input type="text">
+                </div>
+              </div>
+              <div class='col-xs-12 group3'>
+                <div class="col-xs-4">
+                  <label>城市</label>
+                  <select name="" id="">
+                    <option value="省"></option>
+                  </select>
+                  <select name="" id="">
+                    <option value="省"></option>
+                  </select>
+                  <select name="" id="">
+                    <option value="省"></option>
+                  </select>
+                </div>
+                <div class="col-xs-5 addr">
+                  <label>地址</label>
+                  <input type="text">
+                </div>
+                <div class="col-xs-3">
+                  <label>固定电话</label>
+                  <input>
+                </div>
+              </div>
+            </div>
+            <div class="row trade-info">
+              <div class="col-xs-12 group4">
+                <div class="col-xs-3">
+                  <label for="">企业类型</label>
+                  <select name="" id="" class='supply'>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                  </select>
+                </div>
+                <div class="col-xs-5">
+                  <label for="">行业类型</label>
+                  <select name="" id="" class='genre'>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                  </select>
+                </div>
+                <div class="col-xs-3">
+                  <label for="">贸易类型</label>
+                  <select name="" id="" class='trade'>
+                    <option value="1">内外销</option>
+                    <option value="1">内销</option>
+                    <option value="1">外销</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xs-12 group5">
+                <div class="col-xs-3">
+                  <label for="">性别</label>
+                  <select name="" id="" class='sex'>
+                    <option value="1">童装</option>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                  </select>
+                </div>
+                <div class="col-xs-5">
+                  <label for="">风格</label>
+                  <select name="" id="" class='format'>
+                    <option value="1">童装</option>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                  </select>
+                </div>
+                <div class="col-xs-4">
+                  <label for="">重点商品</label>
+                  <select name="" id="" class='major'>
+                    <option value="1">童装</option>
+                    <option value="1">企业类型</option>
+                    <option value="1">企业类型</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xs-12 group6">
+                  <div class="col-xs-4">
+                    <label for="">重点开发季节</label>
+                    <select name="" id="" class='season'>
+                      <option value="1">童装</option>
+                      <option value="1">企业类型</option>
+                      <option value="1">企业类型</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-4">
+                    <label for="">材质</label>
+                    <select name="" id="" class='texture'>
+                      <option value="1">童装</option>
+                      <option value="1">企业类型</option>
+                      <option value="1">企业类型</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-4">
+                    <label for="">面料工艺</label>
+                    <select name="" id="" class='craft'>
+                      <option value="1">童装</option>
+                      <option value="1">企业类型</option>
+                      <option value="1">企业类型</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+            <div class='row other-info'>
+              <div class="col-xs-12 group7">
+                  <div class="col-xs-3">
+                    <label for="">服务阶段</label>
+                    <select name="" id="" class='stage-ser'>
+                      <option value="">新客期</option>
+                      <option value="">服务期</option>
+                      <option value="">流转期</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-3">
+                    <label for="">客户情况</label>
+                    <select name="" id="" class='condition'>
+                        <option value="">新客期</option>
+                        <option value="">服务期</option>
+                        <option value="">流转期</option>
+                      </select> 
+                  </div>
+                  <div class="col-xs-3">
+                      <label for="">发票项</label>
+                      <select name="" id="" class='invoice'>
+                          <option value="">新客期</option>
+                          <option value="">服务期</option>
+                          <option value="">流转期</option>
+                        </select> 
+                  </div>
+                  <div class="col-xs-3">
+                    <label for="">网站权限</label>
+                    <input type="text" value='全网' disabled>
+                  </div>
+              </div>
+              <div class="col-xs-12 group8">
+                <label class='col-xs-1'>赠品内容</label>
+                <label class='col-xs-1'>快反应系列</label>
+                <label class='col-xs-1'>APM男装</label>
+                <div class='col-xs-4'>
+                  <label for="">最后一本到期事件</label>
+                  <input type="text" value='2018-12-15' disabled>
+                </div>
+                <div class='col-xs-2'>
+                  <label for="">总数</label>
+                  <input type="text" value='24' disabled>
+                </div>
+              </div>
+              <div class="col-xs-12 group8">
+                  <label class='col-xs-1 col-xs-offset-2'>APM男装</label>
+                  <div class='col-xs-4'>
+                    <label for="">最后一本到期事件</label>
+                    <input type="text" value='2018-12-15' disabled>
+                  </div>
+                  <div class='col-xs-2'>
+                    <label for="">总数</label>
+                    <input type="text" value='24' disabled>
+                  </div>
+                </div>
+                <div class="col-xs-12 group8">
+                    <label class='col-xs-1 col-xs-offset-2'>APM男装</label>
+                    <div class='col-xs-4'>
+                      <label for="">最后一本到期事件</label>
+                      <input type="text" value='2018-12-15' disabled>
+                    </div>
+                    <div class='col-xs-2'>
+                      <label for="">总数</label>
+                      <input type="text" value='24' disabled>
+                    </div>
+                    <div class='col-xs-1 col-xs-offset-2'>
+                        <button button type="button" class="btn btn-primary">保存资料</button>
+                      </div>
+                  </div>
+                  
+            </div>
+            <!-- <div class="row">
             <div class='col-xs-12 group1'>
               <div class='col-xs-4'>
                 <label>主账号</label>
-                <input type="text" >
+                <input type="text">
               </div>
               <div class='col-xs-4'>
                 <label for="">客户id</label>
@@ -537,36 +737,39 @@
               </div>
             </div>
             <div class='col-xs-12 city'>
-                <div class="col-xs-3"> 
-                  <label>城市</label>
-                  <select name="" id="">
-                    <option value="省"></option>
-                  </select>
-                  <select name="" id="">
-                      <option value="省"></option>
-                  </select>
-                  <select name="" id="">
-                      <option value="省"></option>
-                  </select>
-                </div>
-                <div class="col-xs-5">
-                  <label class='col-xs-2'>地址</label>
-                  <input type="text" class='col-xs-9'>
-                </div>
+              <div class="col-xs-3">
+                <label>城市</label>
+                <select name="" id="">
+                  <option value="省"></option>
+                </select>
+                <select name="" id="">
+                  <option value="省"></option>
+                </select>
+                <select name="" id="">
+                  <option value="省"></option>
+                </select>
               </div>
+              <div class="col-xs-5">
+                <label class='col-xs-2'>地址</label>
+                <input type="text" class='col-xs-9'>
+              </div>
+            </div> -->
           </div>
 
         </div>
       </div>
-    </div>
 
-    <footer>
-      <p>Copyright &copy; 2016.Company name All rights reserved.More Templates
-        <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from
-        <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
-      </p>
-    </footer>
-    <!-- /. PAGE WRAPPER  -->
+
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2016.Company name All rights reserved.More Templates
+      <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from
+      <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+    </p>
+  </footer>
+  <!-- /. PAGE WRAPPER  -->
   </div>
   </div>
   <!-- /. WRAPPER  -->

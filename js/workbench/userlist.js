@@ -48,10 +48,9 @@ require(['vue'], function (Vue) {
                     console.log(e)
                     var tag = e.target;
                     var all_check = tag.checked;
-                    for(var i=0,len=this.thead.length;i<len;i++){
-                        this.thead[i].is_show=all_check;
-                    }
-                    // var all_check = tag.checked;
+                    this.thead.forEach(function(v){
+                        v.is_show = all_check
+                    })
                 }
             }
         });
